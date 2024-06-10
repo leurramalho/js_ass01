@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+/* Styles for the body */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Sets the font family for the body text */
+    background-color: #000000; /* Sets the background color of the body */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Styles for the container */
+.container {
+    max-width: 800px; /* Sets the maximum width of the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding inside the container */
+}
+
+/* Styles for level 1 headings */
+h1 {
+    font-size: 36px; /* Sets the font size of level 1 headings */
+    color: #e88104; /* Sets the text color of level 1 headings */
+    text-align: center; /* Centers the text */
+    margin-bottom: 20px; /* Adds margin at the bottom */
+}
+
+/* Styles for story elements */
+.story-elements {
+    text-align: center; /* Centers the elements */
+    margin-bottom: 20px; /* Adds margin at the bottom */
+}
+
+/* Styles for buttons within story elements */
+.story-elements button {
+    font-size: 18px; /* Sets the font size of buttons */
+    padding: 10px 20px; /* Sets padding for buttons */
+    margin: 5px; /* Adds margin around buttons */
+    background-color: #ff6200; /* Sets the background color of buttons */
+    color: #ffffff; /* Sets the text color of buttons */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Adds border radius */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Adds transition effect */
+}
+
+/* Styles for button hover state */
+.story-elements button:hover {
+    background-color: #ffdb4d; /* Changes background color on hover */
+}
+
+/* Styles for the story */
+.story {
+    background-color: #ffffff; /* Sets the background color of the story */
+    padding: 20px; /* Adds padding inside the story */
+    border-radius: 10px; /* Adds border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds box shadow */
+    text-align: center; /* Centers the text */
+}
+
+/* Styles for paragraphs within the story */
+.story p {
+    font-size: 20px; /* Sets the font size of paragraphs */
+    color: #2a4b7c; /* Sets the text color of paragraphs */
+    margin: 0; /* Removes default margin */
+}
+
+/* Styles for specific spans within the story */
+#noun,
+#verb,
+#adjective,
+#noun2,
+#place {
+    font-weight: bold; /* Sets font weight to bold */
+}
